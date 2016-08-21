@@ -1,3 +1,5 @@
+// Create a JSON file describing each product you offer. Add a key/value pair that creates a relationship to the appropriate product type. Add at least 3 products for each type.
+
 {
     "products": [{
         "fairy_sparklers": {
