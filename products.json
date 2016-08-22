@@ -1,0 +1,122 @@
+// Create a JSON file describing each product you offer. Add a key/value pair that creates a relationship to the appropriate product type. Add at least 3 products for each type.
+
+{
+    "products": [{
+// Category name: fireworks
+  // Type name: entertainment [0]
+        "peony": {
+            "id": 0,
+            "type": 00,
+            "name": "Peony",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "comet": {
+            "id": 1,
+            "type": 0,
+            "name": "Comet",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "sky_rocket": {
+            "id": 2,
+            "type": 0,
+            "name": "Sky Rocket",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+  // Type name: consumer [1]
+        "fairy_sparklers": {
+            "id": 3,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 4,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fairy_sparklers": {
+            "id": 5,
+            "type": 1,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+  // Type name: personal [2]
+        "sparklers": {
+            "id": 6,
+            "type": 2,
+            "name": "Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "firecrackers": {
+            "id": 7,
+            "type": 2,
+            "name": "Firecrackers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "roman_candles": {
+            "id": 8,
+            "type": 2,
+            "name": "Roman Candles",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+// Category name: demolition
+  // Type name: ANFO [3]
+        "mining": {
+            "id": 9,
+            "type": 3,
+            "name": "Mining",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "cement_removal": {
+            "id": 10,
+            "type": 3,
+            "name": "Cement Removal",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "annm": {
+            "id": 11,
+            "type": 3,
+            "name": "ANNM",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+  // Type name: dynamite [4]
+        "construction": {
+            "id": 12,
+            "type": 4,
+            "name": "Construction",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "anfo_booster": {
+            "id": 13,
+            "type": 4,
+            "name": "ANFO Booster",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "extra": {
+            "id": 14,
+            "type": 4,
+            "name": "Extra Dynamite",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+  // Type name: TNT [5]
+        "military": {
+            "id": 15,
+            "type": 5,
+            "name": "Military",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "fracturing": {
+            "id": 16,
+            "type": 5,
+            "name": "Hydraulic Fracturing",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "water": {
+            "id": 17,
+            "type": 5,
+            "name": "Water",
+            "description": "Multi-colored sparklers that are safe for any age."
+        }
+    }]
+}

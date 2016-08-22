@@ -1,0 +1,37 @@
+<!-- Create a simple user interface for your product catalog where a user can select a category from a dropdown. When a category is selected, you must use Promises to read, first, from the categories.json to load that array of objects, then load types.json, then products.json.
+
+Once all data is loaded, you need to display the products in a Bootstrap grid. Each product must display the string name of its product type, and product category. Not the integer id value. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MJD Quiz</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+
+  <div class="container">
+    <header><h1>Acme Explosives</h1></header>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Categories
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">Category0</a></li>
+        <li><a href="#">Category1</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Separated link</a></li>
+      </ul>
+    </div>
+
+
+
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
